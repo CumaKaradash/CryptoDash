@@ -1,0 +1,9 @@
+[build]
+  command = "next build"
+  publish = ".next"
+
+[dev]
+  command = "next dev"
+
+[functions]
+  directory = "netlify/functions"
